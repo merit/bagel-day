@@ -7,7 +7,7 @@
   { "name": "Skillsky", "status": "DONE", "image": "https://media.licdn.com/dms/image/C4E03AQERxRyOTcBTBA/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=4QoUPjwqJq5EkVJzvpr86erxzKma6g-dtwQzuwkuMZY" },
   { "name": "Jake", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C5103AQH4nvpi0Iuq0A/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=soJdxtq5kS3hX9mQj0LxFYgJZhgOD_4Jqw4y9Z31gH8" },
   { "name": "Kristin", "status": "DONE", "image": "https://media.licdn.com/dms/image/C4E03AQFb6BJywCms-A/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=DjmbyokaFXTBwmNCYBortcjjtAZKZGgpj9yZYh6P04Q" },
-  { "name": "Garcia", "status": "CURRENT", "image": "https://media.licdn.com/dms/image/C4D03AQFOrmpmMwMCTQ/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=DYeCmdI7sHUIWLKd4_RZu18UqSE1PyQZmPrWhsMlRvY" },
+  { "name": "Garcia", "status": "DONE", "image": "https://media.licdn.com/dms/image/C4D03AQFOrmpmMwMCTQ/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=DYeCmdI7sHUIWLKd4_RZu18UqSE1PyQZmPrWhsMlRvY" },
   { "name": "Tomer", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C4E03AQE4JvsaaIlL7w/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=V_F-7WcmTceNPq_5g0rAY1abVfwcEnbIB1M32aXfYhM" },
   { "name": "Gareth", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C4E03AQGuqEcoMybLjQ/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=5CW0OEqYd_x5jHiW_a6D6tN-A59WjnW05qHuzeEAZ-g" },
   { "name": "Mark", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C4E03AQF-xRXe_mjpuw/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=r24QD1-u49rmNmiPXkTX-y1lIXZd1wcH-StEwFHrcWE" },
@@ -15,7 +15,8 @@
   { "name": "Jenn", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C5603AQFmDDvo59B8Sg/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=Vo1yCkAhbfzKH0jjUQmCQW9DQTRNFIuh9YN_liM5tE4" },
   { "name": "Dylan", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C4D03AQH_Xrnxrv_ESw/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=FG3MiwbmGdpRi6lINbBr0PlnrJa507i0UrvWZ5TfZ7k" },
   { "name": "Trevor", "status": "DONE", "image": "https://media.licdn.com/dms/image/C4E03AQG5VdlxIgPlIw/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=dNZJDFJaehenifkJ8CQ5cR8SL3hDbTKk9voC2ygSTXc" },
-  { "name": "Taylor", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C5603AQH6Bsqp7FoRyg/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=xjP6RQxZQAvVXbMOozpZBLHTS14q6BJ1qlYqujbOHwI" },
+  { "name": "Taylor", "status": "CURRENT", "image": "https://media.licdn.com/dms/image/C5603AQH6Bsqp7FoRyg/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=xjP6RQxZQAvVXbMOozpZBLHTS14q6BJ1qlYqujbOHwI" },
   { "name": "Viral", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C4E03AQGRIvjtWFdRng/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=CtgbU7LjjFfBU5583cvWeol3JXxOq4pK0ZWf6gj_vTY" },
-  { "name": "Erin", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C5603AQF4yd1-Xywb-A/profile-displayphoto-shrink_800_800/0?e=1542844800&v=beta&t=d9N0WmSr6P9BffzXEsDKJYXc2itpSST5eNWV2YQX3jw" }
+  { "name": "Erin", "status": "NOT_DONE", "image": "https://media.licdn.com/dms/image/C5603AQF4yd1-Xywb-A/profile-displayphoto-shrink_800_800/0?e=1542844800&v=beta&t=d9N0WmSr6P9BffzXEsDKJYXc2itpSST5eNWV2YQX3jw" },
+  { "name": "John", "status": "NOT_DONE", "image": "https://via.placeholder.com/300?text=John" }
 ]

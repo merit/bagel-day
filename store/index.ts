@@ -40,7 +40,8 @@ export const getters: Getters = {
 
 export const mutations = {
   setPeople(state: State, people: Person[]) {
-    state.people = people
+    // Never allow GONE people to appear in any way
+    state.people = people.filter(person => person.status !== BagelStatus.Gone);
   },
 
   setNotChosen(state: State, person: Person) {

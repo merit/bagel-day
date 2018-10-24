@@ -3,5 +3,6 @@ export enum BagelStatus {
   Current = "CURRENT",
   Done = "DONE",
   NotChosen = "NOT_CHOSEN",
-  NotDone = "NOT_DONE"
+  NotDone = "NOT_DONE",
+  Gone = "GONE"
 }

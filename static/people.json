@@ -19,5 +19,6 @@
   { "name": "Viral", "status": "NOT_DONE", "image": "/photos/Viral.jpeg" },
   { "name": "Erin", "status": "GONE", "image": "/photos/Erin.jpeg" },
   { "name": "John", "status": "NOT_DONE", "image": "/photos/John.png" },
-  { "name": "Lokesh", "status": "NOT_DONE", "image": "/photos/Lokesh.jpg" }
+  { "name": "Lokesh", "status": "NOT_DONE", "image": "/photos/Lokesh.jpg" },
+  { "name": "Praveen", "status": "NOT_DONE", "image": "/photos/Praveen.jpg" }
 ]

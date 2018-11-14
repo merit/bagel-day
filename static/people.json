@@ -1,4 +1,5 @@
 [
+  { "name": "Angela", "status": "NOT_DONE", "image": "/photos/Angela.jpg" },
   { "name": "Dylan", "status": "NOT_DONE", "image": "/photos/Dylan.jpeg" },
   { "name": "Erin", "status": "GONE", "image": "/photos/Erin.jpeg" },
   { "name": "Garcia", "status": "DONE", "image": "/photos/Garcia.jpeg" },
@@ -12,8 +13,8 @@
   { "name": "Mandi", "status": "NOT_DONE", "image": "/photos/Mandi.jpg" },
   { "name": "Mark", "status": "DONE", "image": "/photos/Mark.jpeg" },
   { "name": "Michael", "status": "DONE", "image": "/photos/Michael.jpeg" },
-  { "name": "Omer", "status": "CURRENT", "image": "/photos/Omer.jpeg" },
-  { "name": "Omri", "status": "NOT_DONE", "image": "/photos/Omri.jpeg" },
+  { "name": "Omer", "status": "DONE", "image": "/photos/Omer.jpeg" },
+  { "name": "Omri", "status": "CURRENT", "image": "/photos/Omri.jpeg" },
   { "name": "Praveen", "status": "NOT_DONE", "image": "/photos/Praveen.jpg" },
   { "name": "Skillsky", "status": "DONE", "image": "/photos/Skillsky.jpeg" },
   { "name": "Stephen", "status": "DONE", "image": "/photos/Stephen.jpeg" },

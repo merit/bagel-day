@@ -2,6 +2,7 @@
   { "name": "Angela", "status": "NOT_DONE", "image": "/photos/Angela.jpg" },
   { "name": "Dylan", "status": "NOT_DONE", "image": "/photos/Dylan.jpeg" },
   { "name": "Erin", "status": "GONE", "image": "/photos/Erin.jpeg" },
+  { "name": "Evan", "status": "NOT_DONE", "image": "/photos/Evan.jpg" },
   { "name": "Garcia", "status": "DONE", "image": "/photos/Garcia.jpeg" },
   { "name": "Gareth", "status": "NOT_DONE", "image": "/photos/Gareth.jpeg" },
   { "name": "Jake", "status": "DONE", "image": "/photos/Jake.jpeg" },

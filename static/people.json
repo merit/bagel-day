@@ -1,5 +1,6 @@
 [
   { "name": "Angela", "status": "GONE", "image": "/photos/Angela.jpg" },
+  { "name": "Carlie", "status": "NOT_DONE", "image": "/photos/Carlie.jpg" },
   { "name": "Dylan", "status": "NOT_DONE", "image": "/photos/Dylan.jpeg" },
   { "name": "Erin", "status": "GONE", "image": "/photos/Erin.jpeg" },
   { "name": "Evan", "status": "NOT_DONE", "image": "/photos/Evan.jpg" },
@@ -9,6 +10,7 @@
   { "name": "Jenn", "status": "DONE", "image": "/photos/Jenn.jpeg" },
   { "name": "John", "status": "DONE", "image": "/photos/John.png" },
   { "name": "Julie", "status": "NOT_DONE", "image": "/photos/Julie.jpeg" },
+  { "name": "Kate", "status": "NOT_DONE", "image": "/photos/Kate.jpg" },
   { "name": "Kristin", "status": "DONE", "image": "/photos/Kristin.jpeg" },
   { "name": "Lokesh", "status": "NOT_DONE", "image": "/photos/Lokesh.jpg" },
   { "name": "Mandi", "status": "NOT_DONE", "image": "/photos/Mandi.jpg" },

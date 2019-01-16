@@ -12,16 +12,23 @@
         <img class="mugShot" :src="person.image" :class="{ chosen: person.status === 'CHOSEN' }">
       </li>
     </ul>
+
+    <OtherPeople heading="Not this week..." :people="notChosenPeople" />
   </div>
 </template>
 
 <script lang="ts">
   import shuffle from "lodash.shuffle"
   import { Component, Prop, Vue } from "nuxt-property-decorator"
-
+  import { Getter } from "vuex-class"
   import { Person } from "../store"
+  import OtherPeople from "../components/OtherPeople.vue"
 
-  @Component({})
+  @Component({
+    components: {
+      OtherPeople,
+    }
+  })
   export default class BagelChooser extends Vue {
     @Prop() people: Person[]
     choosing: boolean = false
@@ -30,6 +37,8 @@
     randomizeTimeout: number
     removePersonTimeout: number
     removePersonInterval: number
+
+    @Getter notChosenPeople: Person[]
 
     constructor() {
       super();

@@ -3,13 +3,13 @@
     <header>
       <h1>Bagel Wednesday</h1>
       <p>Today's bagels by</p>
-      <img :src="currentPerson.image" />
+      <img class="currentPersonImage" :src="currentPerson.image" />
     </header>
 
     <div class="sections">
       <section class="thankYou">
+        <OtherPeople heading="WELCOME" :people="newPeople" />
         <OtherPeople heading="Thank you!" :people="donePeople" />
-        <OtherPeople heading="Not this week..." :people="notChosenPeople" />
       </section>
 
       <section class="bagelChooser">
@@ -36,8 +36,8 @@
   export default class extends Vue {
     @Getter currentPerson: Person
     @Getter donePeople: Person[]
-    @Getter notChosenPeople: Person[]
     @Getter notDonePeople: Person[]
+    @Getter newPeople: Person[]
   }
 </script>
 
@@ -53,4 +53,9 @@
   section { text-align: center; }
   .thankYou { flex: 1 }
   .bagelChooser { flex: 3 }
+
+  .currentPersonImage {
+    height: 200px;
+    width: 200px;
+  }
 </style>

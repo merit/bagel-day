@@ -15,7 +15,7 @@
   { "name": "Kate", "status": "NOT_DONE", "image": "/photos/Kate.jpg" },
   { "name": "Kristin", "status": "GONE", "image": "/photos/Kristin.jpeg" },
   { "name": "Lokesh", "status": "NOT_DONE", "image": "/photos/Lokesh.jpg" },
-  { "name": "Mandi", "status": "CURRENT", "image": "/photos/Mandi.jpg" },
+  { "name": "Mandi", "status": "DONE", "image": "/photos/Mandi.jpg" },
   { "name": "Mark", "status": "DONE", "image": "/photos/Mark.jpeg" },
   { "name": "Michael", "status": "DONE", "image": "/photos/Michael.jpeg" },
   { "name": "Omer", "status": "DONE", "image": "/photos/Omer.jpeg" },
@@ -26,5 +26,5 @@
   { "name": "Taylor", "status": "DONE", "image": "/photos/Taylor.jpeg" },
   { "name": "Tomer", "status": "DONE", "image": "/photos/Tomer.jpeg" },
   { "name": "Trevor", "status": "DONE", "image": "/photos/Trevor.jpeg" },
-  { "name": "Viral", "status": "NOT_DONE", "image": "/photos/Viral.jpeg" }
+  { "name": "Viral", "status": "CURRENT", "image": "/photos/Viral.jpeg" }
 ]

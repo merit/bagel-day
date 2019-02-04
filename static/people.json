@@ -9,6 +9,7 @@
   { "name": "Jake", "status": "DONE", "image": "/photos/Jake.jpeg" },
   { "name": "Jay", "status": "NOT_DONE", "image": "/photos/Jay.jpg" },
   { "name": "Jenn", "status": "DONE", "image": "/photos/Jenn.jpeg" },
+  { "name": "Jessica", "status": "NEW", "image": "/photos/Jessica.jpg" },
   { "name": "John", "status": "DONE", "image": "/photos/John.jpg" },
   { "name": "Julia", "status": "DONE", "image": "/photos/Julia.jpg" },
   { "name": "Julie", "status": "NOT_DONE", "image": "/photos/Julie.jpeg" },

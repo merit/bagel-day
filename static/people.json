@@ -1,4 +1,5 @@
 [
+  { "name": "Alex", "status": "NEW", "image": "/photos/Alex.jpg" },
   { "name": "Angela", "status": "GONE", "image": "/photos/Angela.jpg" },
   { "name": "Carlie", "status": "DONE", "image": "/photos/Carlie.jpg" },
   { "name": "Dylan", "status": "NOT_DONE", "image": "/photos/Dylan.jpeg" },
@@ -9,7 +10,7 @@
   { "name": "Jake", "status": "DONE", "image": "/photos/Jake.jpeg" },
   { "name": "Jay", "status": "NOT_DONE", "image": "/photos/Jay.jpg" },
   { "name": "Jenn", "status": "DONE", "image": "/photos/Jenn.jpeg" },
-  { "name": "Jessica", "status": "NEW", "image": "/photos/Jessica.jpg" },
+  { "name": "Jessica", "status": "NOT_DONE", "image": "/photos/Jessica.jpg" },
   { "name": "John", "status": "DONE", "image": "/photos/John.jpg" },
   { "name": "Julia", "status": "DONE", "image": "/photos/Julia.jpg" },
   { "name": "Julie", "status": "NOT_DONE", "image": "/photos/Julie.jpeg" },
@@ -19,6 +20,7 @@
   { "name": "Mandi", "status": "DONE", "image": "/photos/Mandi.jpg" },
   { "name": "Mark", "status": "DONE", "image": "/photos/Mark.jpeg" },
   { "name": "Michael", "status": "DONE", "image": "/photos/Michael.jpeg" },
+  { "name": "Nathan", "status": "NEW", "image": "/photos/Nathan.jpg" },
   { "name": "Omer", "status": "DONE", "image": "/photos/Omer.jpeg" },
   { "name": "Omri", "status": "DONE", "image": "/photos/Omri.jpeg" },
   { "name": "Praveen", "status": "DONE", "image": "/photos/Praveen.jpg" },

@@ -8,12 +8,12 @@
   { "name": "Garcia", "status": "DONE", "image": "/photos/Garcia.jpeg" },
   { "name": "Gareth", "status": "DONE", "image": "/photos/Gareth.jpeg" },
   { "name": "Jake", "status": "DONE", "image": "/photos/Jake.jpeg" },
-  { "name": "Jay", "status": "NOT_DONE", "image": "/photos/Jay.jpg" },
+  { "name": "Jay", "status": "DONE", "image": "/photos/Jay.jpg" },
   { "name": "Jenn", "status": "DONE", "image": "/photos/Jenn.jpeg" },
   { "name": "Jessica", "status": "NOT_DONE", "image": "/photos/Jessica.jpg" },
   { "name": "John", "status": "DONE", "image": "/photos/John.jpg" },
   { "name": "Julia", "status": "DONE", "image": "/photos/Julia.jpg" },
-  { "name": "Julie", "status": "NOT_DONE", "image": "/photos/Julie.jpeg" },
+  { "name": "Julie", "status": "CURRENT", "image": "/photos/Julie.jpeg" },
   { "name": "Kate", "status": "NOT_DONE", "image": "/photos/Kate.jpg" },
   { "name": "Kristin", "status": "GONE", "image": "/photos/Kristin.jpeg" },
   { "name": "Lokesh", "status": "NOT_DONE", "image": "/photos/Lokesh.jpg" },
@@ -29,5 +29,5 @@
   { "name": "Taylor", "status": "DONE", "image": "/photos/Taylor.jpeg" },
   { "name": "Tomer", "status": "DONE", "image": "/photos/Tomer.jpeg" },
   { "name": "Trevor", "status": "DONE", "image": "/photos/Trevor.jpeg" },
-  { "name": "Viral", "status": "CURRENT", "image": "/photos/Viral.jpeg" }
+  { "name": "Viral", "status": "DONE", "image": "/photos/Viral.jpeg" }
 ]

@@ -13,7 +13,6 @@
   { "name": "Jessica", "status": "NOT_DONE", "image": "/photos/Jessica.jpg" },
   { "name": "John", "status": "DONE", "image": "/photos/John.jpg" },
   { "name": "Julia", "status": "DONE", "image": "/photos/Julia.jpg" },
-  { "name": "Julie", "status": "CURRENT", "image": "/photos/Julie.jpeg" },
   { "name": "Kate", "status": "NOT_DONE", "image": "/photos/Kate.jpg" },
   { "name": "Kristin", "status": "GONE", "image": "/photos/Kristin.jpeg" },
   { "name": "Lokesh", "status": "NOT_DONE", "image": "/photos/Lokesh.jpg" },

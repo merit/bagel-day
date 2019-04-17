@@ -1,7 +1,7 @@
 [
   { "name": "Alex", "status": "DONE", "image": "/photos/Alex.jpg" },
   { "name": "Angela", "status": "GONE", "image": "/photos/Angela.jpg" },
-  { "name": "Brian", "status": "NOT_DONE", "image": "/photos/Brian.jpg" },
+  { "name": "Brian", "status": "CURRENT", "image": "/photos/Brian.jpg" },
   { "name": "Carlie", "status": "DONE", "image": "/photos/Carlie.jpg" },
   { "name": "Daniel Garcia", "status": "NOT_DONE", "image": "/photos/DanielGarcia.jpg" },
   { "name": "Dylan", "status": "DONE", "image": "/photos/Dylan.jpeg" },
@@ -19,7 +19,7 @@
   { "name": "Julie", "status": "GONE", "image": "/photos/Julie.jpeg" },
   { "name": "Kate", "status": "GONE", "image": "/photos/Kate.jpg" },
   { "name": "Kristin", "status": "GONE", "image": "/photos/Kristin.jpeg" },
-  { "name": "Larry", "status": "CURRENT", "image": "/photos/Larry.png" },
+  { "name": "Larry", "status": "DONE", "image": "/photos/Larry.png" },
   { "name": "Lokesh", "status": "GONE", "image": "/photos/Lokesh.jpg" },
   { "name": "Mandi", "status": "DONE", "image": "/photos/Mandi.jpg" },
   { "name": "Mark", "status": "DONE", "image": "/photos/Mark.jpeg" },

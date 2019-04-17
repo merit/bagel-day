@@ -13,7 +13,7 @@
   { "name": "Jason Garcia", "status": "DONE", "image": "/photos/JasonGarcia.jpeg" },
   { "name": "Jay", "status": "DONE", "image": "/photos/Jay.jpg" },
   { "name": "Jenn", "status": "DONE", "image": "/photos/Jenn.jpeg" },
-  { "name": "Jessica", "status": "CURRENT", "image": "/photos/Jessica.jpg" },
+  { "name": "Jessica", "status": "DONE", "image": "/photos/Jessica.jpg" },
   { "name": "John", "status": "DONE", "image": "/photos/John.jpg" },
   { "name": "Julia", "status": "DONE", "image": "/photos/Julia.jpg" },
   { "name": "Julie", "status": "GONE", "image": "/photos/Julie.jpeg" },

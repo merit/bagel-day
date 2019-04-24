@@ -30,6 +30,7 @@
   { "name": "Omri", "status": "DONE", "image": "/photos/Omri.jpeg" },
   { "name": "Praveen", "status": "DONE", "image": "/photos/Praveen.jpg" },
   { "name": "Richard", "status": "DONE", "image": "/photos/Richard.jpg" },
+  { "name": "Ronnie", "status": "NEW", "image": "/photos/Ronnie.jpg" },
   { "name": "Skillsky", "status": "DONE", "image": "/photos/Skillsky.jpeg" },
   { "name": "Stephen", "status": "DONE", "image": "/photos/Stephen.jpeg" },
   { "name": "Taylor", "status": "DONE", "image": "/photos/Taylor.jpeg" },

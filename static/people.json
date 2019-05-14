@@ -15,6 +15,7 @@
   { "name": "Jenn", "status": "DONE", "image": "/photos/Jenn.jpeg" },
   { "name": "Jessica", "status": "DONE", "image": "/photos/Jessica.jpg" },
   { "name": "John", "status": "DONE", "image": "/photos/John.jpg" },
+  { "name": "John Topete", "status": "NEW", "image": "/photos/JohnTopete.jpeg" },
   { "name": "Julia", "status": "DONE", "image": "/photos/Julia.jpg" },
   { "name": "Julie", "status": "GONE", "image": "/photos/Julie.jpeg" },
   { "name": "Kate", "status": "GONE", "image": "/photos/Kate.jpg" },

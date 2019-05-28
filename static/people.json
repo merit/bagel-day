@@ -7,6 +7,7 @@
   { "name": "Dylan", "status": "NOT_DONE", "image": "/photos/Dylan.jpeg" },
   { "name": "Erin", "status": "GONE", "image": "/photos/Erin.jpeg" },
   { "name": "Evan", "status": "GONE", "image": "/photos/Evan.jpg" },
+  { "name": "Frank", "status": "NEW", "image": "/photos/Frank.jpeg" },
   { "name": "Gareth", "status": "GONE", "image": "/photos/Gareth.jpeg" },
   { "name": "Harrison", "status": "NOT_DONE", "image": "/photos/Harrison.jpg" },
   { "name": "Jake", "status": "NOT_DONE", "image": "/photos/Jake.jpeg" },

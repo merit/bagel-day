@@ -17,6 +17,7 @@
   { "name": "Jessica", "status": "NOT_DONE", "image": "/photos/Jessica.jpg" },
   { "name": "John", "status": "GONE", "image": "/photos/John.jpg" },
   { "name": "John Topete", "status": "NOT_DONE", "image": "/photos/JohnTopete.jpeg" },
+  { "name": "Josh", "status": "NEW", "image": "/photos/Josh.jpeg" },
   { "name": "Julia", "status": "NOT_DONE", "image": "/photos/Julia.jpg" },
   { "name": "Julie", "status": "GONE", "image": "/photos/Julie.jpeg" },
   { "name": "Jungmin", "status": "NOT_DONE", "image": "/photos/Jungmin.jpeg" },

@@ -1,6 +1,6 @@
 [
   { "name": "Akia", "status": "NOT_DONE", "image": "/photos/Akia.jpeg" },  
-  { "name": "Alex", "status": "CURRENT", "image": "/photos/Alex.jpg" },
+  { "name": "Alex", "status": "DONE", "image": "/photos/Alex.jpg" },
   { "name": "Angela", "status": "GONE", "image": "/photos/Angela.jpg" },
   { "name": "Brian", "status": "NOT_DONE", "image": "/photos/Brian.jpg" },
   { "name": "Carlie", "status": "DONE", "image": "/photos/Carlie.jpg" },
@@ -34,6 +34,7 @@
   { "name": "Mandi", "status": "NOT_DONE", "image": "/photos/Mandi.jpg" },
   { "name": "Mark", "status": "DONE", "image": "/photos/Mark.jpeg" },
   { "name": "Michael", "status": "GONE", "image": "/photos/Michael.jpeg" },
+  { "name": "Mike", "status": "NEW", "image": "/photos/Mike.jpeg" },
   { "name": "Nathan", "status": "DONE", "image": "/photos/Nathan.jpg" },
   { "name": "Oliver", "status": "DONE", "image": "/photos/Oliver.jpg" },
   { "name": "Omer", "status": "NOT_DONE", "image": "/photos/Omer.jpeg" },
@@ -41,12 +42,12 @@
   { "name": "Praveen", "status": "NOT_DONE", "image": "/photos/Praveen.jpg" },
   { "name": "Richard", "status": "GONE", "image": "/photos/Richard.jpg" },
   { "name": "Ronnie", "status": "NOT_DONE", "image": "/photos/Ronnie.jpg" },
-  { "name": "Sabine", "status": "NEW", "image": "/photos/Sabine.jpeg" },
+  { "name": "Sabine", "status": "NOT_DONE", "image": "/photos/Sabine.jpeg" },
   { "name": "Skillsky", "status": "NOT_DONE", "image": "/photos/Skillsky.jpeg" },
   { "name": "Stephen", "status": "NOT_DONE", "image": "/photos/Stephen.jpeg" },
   { "name": "Taylor", "status": "NOT_DONE", "image": "/photos/Taylor.jpeg" },
   { "name": "Tomer", "status": "NOT_DONE", "image": "/photos/Tomer.jpeg" },
   { "name": "Trevor", "status": "NOT_DONE", "image": "/photos/Trevor.jpeg" },
-  { "name": "Viral", "status": "NOT_DONE", "image": "/photos/Viral.jpeg" },
+  { "name": "Viral", "status": "CURRENT", "image": "/photos/Viral.jpeg" },
   { "name": "Yeki", "status": "NOT_DONE", "image": "/photos/Yeki.jpg" }
 ]

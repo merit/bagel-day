@@ -21,7 +21,7 @@
   { "name": "John Scott", "status": "NOT_DONE", "image": "/photos/JohnScott.jpg" },
   { "name": "John Topete", "status": "NOT_DONE", "image": "/photos/JohnTopete.jpeg" },
   { "name": "Josh", "status": "NOT_DONE", "image": "/photos/Josh.jpeg" },
-  { "name": "Julia", "status": "CURRENT", "image": "/photos/Julia.jpg" },
+  { "name": "Julia", "status": "GONE", "image": "/photos/Julia.jpg" },
   { "name": "Julie", "status": "GONE", "image": "/photos/Julie.jpeg" },
   { "name": "Jungmin", "status": "NOT_DONE", "image": "/photos/Jungmin.jpeg" },
   { "name": "Kate", "status": "GONE", "image": "/photos/Kate.jpg" },

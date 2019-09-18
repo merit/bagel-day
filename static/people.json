@@ -34,7 +34,7 @@
   { "name": "Lokesh", "status": "GONE", "image": "/photos/Lokesh.jpg" },
   { "name": "Mandi", "status": "CURRENT", "image": "/photos/Mandi.jpg" },
   { "name": "Mark", "status": "DONE", "image": "/photos/Mark.jpeg" },
-  { "name": "Marshall", "status": "NEW", "image": "/photos/Marshall.jpeg" },
+  { "name": "Marshall", "status": "NOT_DONE", "image": "/photos/Marshall.jpeg" },
   { "name": "Michael", "status": "GONE", "image": "/photos/Michael.jpeg" },
   { "name": "Mike", "status": "NOT_DONE", "image": "/photos/Mike.jpeg" },
   { "name": "Mike K", "status": "NEW", "image": "/photos/MikeK.jpeg" },

@@ -11,7 +11,7 @@
   { "name": "Evan", "status": "GONE", "image": "/photos/Evan.jpg" },
   { "name": "Frank", "status": "NOT_DONE", "image": "/photos/Frank.jpeg" },
   { "name": "Gareth", "status": "GONE", "image": "/photos/Gareth.jpeg" },
-  { "name": "Grayson", "status": "NEW", "image": "/photos/Glayson.jpeg" },
+  { "name": "Glayson", "status": "NEW", "image": "/photos/Glayson.jpeg" },
   { "name": "Harrison", "status": "DONE", "image": "/photos/Harrison.jpg" },
   { "name": "Jake", "status": "DONE", "image": "/photos/Jake.jpeg" },
   { "name": "Jason Garcia", "status": "NOT_DONE", "image": "/photos/JasonGarcia.jpeg" },

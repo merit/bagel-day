@@ -22,6 +22,7 @@ type Getters = {
   notChosenPeople: (state: State) => Person[],
   notDonePeople: (state: State) => Person[],
   newPeople: (state: State) => Person[],
+  isPersonChosen: (state: State) => boolean,
 }
 
 export const getters: Getters = {
@@ -38,6 +39,7 @@ export const getters: Getters = {
   notChosenPeople: (state: State) => state.people.filter(person => person.status === BagelStatus.NotChosen),
   notDonePeople: (state: State) => state.people.filter(person => person.status === BagelStatus.NotDone),
   newPeople: (state: State) => state.people.filter(person => person.status === BagelStatus.New),
+  isPersonChosen: (state: State) => state.people.find(person => person.status === BagelStatus.Chosen) !== undefined,
 }
 
 export const mutations = {

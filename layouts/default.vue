@@ -1,9 +1,19 @@
 <template>
   <main>
-    <div class="background" />
+    <div :class="{ background: true, confetti: isPersonChosen }" />
     <nuxt/>
   </main>
 </template>
+
+<script lang="ts">
+  import { Component, Vue } from "nuxt-property-decorator"
+  import { Getter } from "vuex-class"
+
+  @Component
+  export default class extends Vue {
+    @Getter isPersonChosen: boolean;
+  }
+</script>
 
 <style>
   body {
@@ -25,5 +35,10 @@
   main {
     margin: 0 auto;
     max-width: 1200px;
+  }
+
+  .confetti {
+    background: url('/confetti.gif');
+    opacity: 0.5;
   }
 </style>

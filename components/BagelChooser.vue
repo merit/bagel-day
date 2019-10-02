@@ -46,7 +46,7 @@
       this.currentPeople = [...this.people];
 
       // Always remove all the people over a set waiting period
-      this.removePersonInterval = 15000 / this.currentPeople.length;
+      this.removePersonInterval = 10000 / this.currentPeople.length;
     }
 
     // Lifecycle hooks

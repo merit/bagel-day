@@ -127,7 +127,7 @@
     width: 100vw;
     height: 100vh;
     transition: all 3s ease-in-out;
-    transform: rotateX(360deg);
+    transform: rotateX(360deg) rotateZ(360deg);
   }
 </style>
 

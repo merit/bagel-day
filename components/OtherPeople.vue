@@ -11,7 +11,6 @@
 
 <script lang="ts">
   import { Component, Prop, Vue } from "nuxt-property-decorator"
-
   import { Person } from "../store"
 
   @Component({})

@@ -17,29 +17,25 @@ export const state = () => ({
 })
 
 type Getters = {
-  currentPerson: (state: State) => Person,
+  currentPeople: (state: State) => Person[],
   donePeople: (state: State) => Person[],
   notChosenPeople: (state: State) => Person[],
   notDonePeople: (state: State) => Person[],
   newPeople: (state: State) => Person[],
-  isPersonChosen: (state: State) => boolean,
+  chosenPeople: (state: State) => Person[],
+  areAllPeopleChosen: (state: State, getters: Getters) => boolean,
 }
 
+export const NUMBER_OF_BAGLERS_TO_CHOOSE = 2;
+
 export const getters: Getters = {
-  currentPerson: (state: State) => {
-    const currentPerson = state.people.filter(person => person.status === BagelStatus.Current)
-
-    if (currentPerson.length !== 1) {
-      throw new Error("<> 1 person found as current")
-    }
-
-    return currentPerson[0];
-  },
+  currentPeople: (state: State) => state.people.filter(person => person.status === BagelStatus.Current),
   donePeople: (state: State) => state.people.filter(person => person.status === BagelStatus.Done),
   notChosenPeople: (state: State) => state.people.filter(person => person.status === BagelStatus.NotChosen),
   notDonePeople: (state: State) => state.people.filter(person => person.status === BagelStatus.NotDone),
   newPeople: (state: State) => state.people.filter(person => person.status === BagelStatus.New),
-  isPersonChosen: (state: State) => state.people.find(person => person.status === BagelStatus.Chosen) !== undefined,
+  chosenPeople: (state: State) => state.people.filter(person => person.status === BagelStatus.Chosen),
+  areAllPeopleChosen: (state: State, getters: Getters) => getters.chosenPeople.length === NUMBER_OF_BAGLERS_TO_CHOOSE,
 }
 
 export const mutations = {

@@ -3,7 +3,13 @@
     <header>
       <h1>Bagel Wednesday</h1>
       <p>Today's bagels by</p>
-      <img class="currentPersonImage" :src="currentPerson.image" />
+
+      <img
+        v-for="currentPerson in currentPeople"
+        class="currentPersonImage"
+        :key="currentPerson.name"
+        :src="currentPerson.image"
+      />
     </header>
 
     <div class="sections">
@@ -34,7 +40,7 @@
     }
   })
   export default class extends Vue {
-    @Getter currentPerson: Person
+    @Getter currentPeople: Person[]
     @Getter donePeople: Person[]
     @Getter notDonePeople: Person[]
     @Getter newPeople: Person[]
@@ -55,7 +61,9 @@
   .bagelChooser { flex: 3 }
 
   .currentPersonImage {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
   }
+  .currentPersonImage:last-child { margin-right: 0; }
 </style>

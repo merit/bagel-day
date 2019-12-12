@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div :class="{ background: true, confetti: isPersonChosen }" />
+    <div :class="{ background: true, confetti: areAllPeopleChosen }" />
     <nuxt/>
   </main>
 </template>
@@ -11,7 +11,7 @@
 
   @Component
   export default class extends Vue {
-    @Getter isPersonChosen: boolean;
+    @Getter areAllPeopleChosen: boolean;
   }
 </script>
 

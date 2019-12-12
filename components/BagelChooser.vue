@@ -8,8 +8,14 @@
     </div>
 
     <ul>
-      <li v-for="person in randomPeople" :key="person.name">
-        <img class="mugShot" :src="person.image" :class="{ chosen: person.status === 'CHOSEN' }">
+      <li v-for="person in randomPeople.filter(person => person.status !== 'CHOSEN')" :key="person.name">
+        <img class="mugShot" :src="person.image">
+      </li>
+    </ul>
+
+    <ul class="chosen">
+      <li v-for="person in chosenPeople" :key="person.name">
+        <img class="mugShot chosen" :src="person.image">
       </li>
     </ul>
 
@@ -21,7 +27,7 @@
   import shuffle from "lodash.shuffle"
   import { Component, Prop, Vue } from "nuxt-property-decorator"
   import { Getter } from "vuex-class"
-  import { Person } from "../store"
+  import { NUMBER_OF_BAGLERS_TO_CHOOSE, Person } from "../store"
   import OtherPeople from "../components/OtherPeople.vue"
 
   @Component({
@@ -39,6 +45,7 @@
     removePersonInterval: number
 
     @Getter notChosenPeople: Person[]
+    @Getter chosenPeople: Person[]
 
     constructor() {
       super();
@@ -46,7 +53,7 @@
       this.currentPeople = [...this.people];
 
       // Always remove all the people over a set waiting period
-      this.removePersonInterval = 10000 / this.currentPeople.length;
+      this.removePersonInterval = 5000 / this.currentPeople.length;
     }
 
     // Lifecycle hooks
@@ -80,9 +87,9 @@
       const notChosenPerson = this.currentPeople.splice(index, 1);
       this.$store.dispatch("setNotChosen", notChosenPerson[0]);
 
-      if (this.currentPeople.length === 1) {
-        // The chosen one!
-        this.$store.dispatch("setChosen", this.currentPeople[0]);
+      if (this.currentPeople.length === NUMBER_OF_BAGLERS_TO_CHOOSE) {
+        // The chosen ones!
+        this.currentPeople.forEach(chosenPerson => this.$store.dispatch("setChosen", chosenPerson));
       } else {
         // Remove the next person
         this.removePersonTimeout = window.setTimeout(this.removeRandomPerson, this.removePersonInterval);
@@ -100,7 +107,7 @@
 </script>
 
 <style scoped>
-  .bagel { width: 200px; }
+  .bagel { width: 200px; z-index: 2; position: relative; }
 
   ul {
     align-items: center;
@@ -121,13 +128,22 @@
   }
 
   .mugShot.chosen {
-    position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
     transition: all 3s ease-in-out;
     transform: rotateX(360deg) rotateZ(360deg);
+    position: relative;
+    z-index: 3;
+  }
+
+  ul.chosen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 </style>
 

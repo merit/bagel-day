@@ -65,8 +65,8 @@
   { "name": "Stephen", "status": "NOT_DONE", "image": "/photos/Stephen.jpeg" },
   { "name": "Suchandan", "status": "NOT_DONE", "image": "/photos/Suchandan.jpeg" },
   { "name": "Taimarie", "status": "NOT_DONE", "image": "/photos/Tai.jpeg" },
-  { "name": "Taylor", "status": "NOT_DONE", "image": "/photos/Taylor.jpeg" },
-  { "name": "Tomer", "status": "NOT_DONE", "image": "/photos/Tomer.jpeg" },
+  { "name": "Taylor", "status": "DONE", "image": "/photos/Taylor.jpeg" },
+  { "name": "Tomer", "status": "CURRENT", "image": "/photos/Tomer.jpeg" },
   { "name": "Trevor", "status": "NOT_DONE", "image": "/photos/Trevor.jpeg" },
   { "name": "Viral", "status": "DONE", "image": "/photos/Viral.jpeg" },
   { "name": "Yeki", "status": "NOT_DONE", "image": "/photos/Yeki.jpg" }

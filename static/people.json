@@ -49,7 +49,7 @@
   { "name": "Marshall", "status": "CURRENT", "image": "/photos/Marshall.jpeg" },
   { "name": "Michael", "status": "GONE", "image": "/photos/Michael.jpeg" },
   { "name": "Mike", "status": "CURRENT", "image": "/photos/Mike.jpeg" },
-  { "name": "Mike K", "status": "DONE", "image": "/photos/MikeK.jpeg" },
+  { "name": "Mike K", "status": "GONE", "image": "/photos/MikeK.jpeg" },
   { "name": "Misha Smith", "status": "NOT_DONE", "image": "/photos/Misha.jpeg" },
   { "name": "Nathan", "status": "DONE", "image": "/photos/Nathan.jpg" },
   { "name": "Neha", "status": "NOT_DONE", "image": "/photos/Neha.jpeg" },

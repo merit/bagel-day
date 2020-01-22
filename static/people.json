@@ -4,7 +4,7 @@
   { "name": "Andrew", "status": "CURRENT", "image": "/photos/Andrew.jpeg" },
   { "name": "Angela", "status": "GONE", "image": "/photos/Angela.jpg" },
   { "name": "Brian", "status": "GONE", "image": "/photos/Brian.jpg" },
-  { "name": "Carlie", "status": "DONE", "image": "/photos/Carlie.jpg" },
+  { "name": "Carlie", "status": "GONE", "image": "/photos/Carlie.jpg" },
   { "name": "Charlie", "status": "NOT_DONE", "image": "/photos/Charlie.jpeg" },
   { "name": "Dan Fast", "status": "NOT_DONE", "image": "/photos/Dan.jpeg" },
   { "name": "Daniel Garcia", "status": "DONE", "image": "/photos/DanielGarcia.jpg" },
